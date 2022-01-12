@@ -1,0 +1,283 @@
+:root {
+  --header-text-color: #ffffff;
+  --first-btn-color: #ffffff;
+  --second-btn-color: #303030;
+  --first-title-color: #ffffff;
+  --second-title-color: #303030;
+  --second-text-color: #303030;
+  --accent-color: #ff6c00;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Header */
+
+.header {
+  background-color: gray;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+}
+
+.header-link {
+  color: var(--header-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-link-tel {
+  color: var(--header-text-color);
+}
+
+.header-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: var(--first-btn-color);
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+/* Hero */
+
+.hero {
+  background-color: gray;
+}
+
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--second-title-color);
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--accent-color);
+}
+.hero-pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 72px;
+  line-height: calc(85 / 72);
+  letter-spacing: 0.05em;
+  color: var(--first-title-color);
+}
+
+.hero-after-title {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/* About */
+
+.about-pre-title {
+  color: var(--second-title-color);
+}
+
+.about-title {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-size: 42px;
+  line-height: calc(49 / 42);
+  letter-spacing: 0.05em;
+  color: var(--second-title-color);
+}
+
+.about-after-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.about-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--second-btn-color);
+}
+
+.about-btn:hover,
+.about-btn:focus {
+  color: var(--accent-color);
+}
+
+/* Prices */
+
+.price {
+  background-color: gray;
+}
+
+.price-pre-title {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.price-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: var(--first-title-color);
+}
+
+.price-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.price-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--first-btn-color);
+}
+
+.price-btn:hover,
+.price-btn:focus {
+  color: var(--accent-color);
+}
+
+/* Reasons */
+.reasona-count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--second-text-color);
+}
+
+.reasons-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--second-text-color);
+}
+
+.reasons-pre-title {
+  color: var(--second-text-color);
+}
+.reasons-title {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--second-title-color);
+}
+.reasons-after-title {
+  font-size: 18px;
+  line-height: 1.67x;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+/* Masters */
+
+.masters-pre-title {
+  color: var(--second-text-color);
+}
+
+.masters-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--second-text-color);
+}
+
+.masters-title {
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+.master-item-text {
+  font-size: 14px;
+  line-height: 1.36x;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+/* Gallery */
+
+.gallery-pre-title {
+  color: var(--second-btn-color);
+}
